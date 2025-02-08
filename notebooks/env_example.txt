@@ -1,0 +1,39 @@
+##### Strategy
+# 1. One account for cron job top scraping of recent posts, e.g., as weekly job
+# 2. As many accounts as needed for a one-off scrape of historic materials, incrememted e.g., by year, adjust based on how much activity the target has.
+EMAIL_MAIN = "random@gmail.com"
+USERNAME_MAIN = "random"
+PASSWORD = "random"
+
+EMAIL_2015 = "random_2015@gmail.com"
+USERNAME_2015 = "random_2015"
+
+EMAIL_2016 = "random_2016@gmail.com"
+USERNAME_2016 = "random_2016"
+
+EMAIL_2017 = "random_2017@gmail.com"
+USERNAME_2017 = "random_2017"
+
+EMAIL_2018 = "random_2018@gmail.com"
+USERNAME_2018 = "random_2018"
+
+EMAIL_2019 = "random_2019@gmail.com"
+USERNAME_2019 = "random_2019"
+
+EMAIL_2020 = "random_2020@gmail.com"
+USERNAME_2020 = "random_2020"
+
+EMAIL_2021 = "random_2021@gmail.com"
+USERNAME_2021 = "random_2021"
+
+EMAIL_2022 = "random_2022@gmail.com"
+USERNAME_2022 = "random_2022"
+
+EMAIL_2023 = "random_2023@gmail.com"
+USERNAME_2023 = "random_2023"
+
+EMAIL_2024 = "random_2024@gmail.com"
+USERNAME_2024 = "random_2024"
+
+EMAIL_2025 = "random_2025@gmail.com"
+USERNAME_2025 = "random_2025"
