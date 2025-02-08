@@ -33,7 +33,7 @@ import pandas as pd
 """
 
 
-def page_scraper(target_url, env_suffix):
+def url_scraper(target_url, env_suffix):
     # Load environment variables
     load_dotenv()
     EMAIL = os.getenv(f"EMAIL_{env_suffix}")
@@ -220,4 +220,4 @@ def page_scraper(target_url, env_suffix):
 target_url = "https://x.com/cityandguilds"
 
 # Run the scraper
-tweets_df = page_scraper(target_url, env_suffix="MAIN")
+tweets_df = url_scraper(target_url, env_suffix="MAIN")
